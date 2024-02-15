@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(164, 219, 245);
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin: 0px;
+}
+header{
+    height: 60vh;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5a7b7dcf90bade8a77c081ee/1522699064420-WQ8AF6H0PJ2UX7OIXWS6/FILE5+-+KendleDesign+-+students.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(33, 33, 109);
+    min-height: 600px;
+}
+header nav{
+    background-color: rgb(16, 123, 245);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width:100%;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    padding: 20px;
+    border-radius: 25%;
+    
+}
+header nav a:hover{
+    background-color: white;
+    color: blue;
+    outline: 1px solid grey;
+}
+#about{
+    text-align: center;
+    padding-top: 5%;
+    padding: 5%;
+}
+#about2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 10%;
+}
+#info{
+    text-align: center;
+    background-color: rgb(59, 112, 212);
+}
+#info h1{
+    font-size: 50px;
+}
+footer{
+    background-color: rgb(30, 30, 131);
+    height: 5vh;
+    color: white;
+    text-align: center;
+}
+#Big{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px 6px black ;
+}
+#Big2{
+    font-size: 30px;
+}
+
